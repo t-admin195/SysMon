@@ -1,0 +1,1 @@
+SysMon is a web application that monitors a Linux server, collectibg system metrics like CPU, Ram, uptime logs and maybe something else in the future. For now this is a simple script with collection of 4 types of metrics.
