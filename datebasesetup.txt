@@ -1,0 +1,5 @@
+CREATE DATABASE sysmon;
+CREATE USER 'sysmon'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
+GRANT ALL PRIVILEGES ON sysmon.* TO 'sysmon'@'localhost';
+FLUSH PRIVILEGES;
+
