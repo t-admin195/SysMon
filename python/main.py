@@ -7,7 +7,7 @@ import mysql.connector
 def get_db():
     return mysql.connector.connect(**DB_CONFIG)
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="../templates")
 
 DB_CONFIG = {
     "host": "localhost",

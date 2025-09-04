@@ -13,7 +13,8 @@ and shows graphs via Chart.js.
 ```bash
 git clone https://github.com/yourname/SysMon.git
 cd SysMon
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+cd python
+python3 SysMon
 ```
+
+! IMPORTANT: replace "YOUR_PASSWORD_HERE" in config.py with your actual database password
