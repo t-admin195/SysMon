@@ -77,7 +77,7 @@ def index():
 if __name__ == "__main__":
     init_db()
 
-    # Запишем метрики при старте (для теста)
+    
     conn = get_db()
     cur = conn.cursor()
     cpu, ram, uptime, logs = collect_metrics()
